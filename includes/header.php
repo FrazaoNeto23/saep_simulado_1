@@ -1,5 +1,5 @@
 <?php
-require_once("config/conexao.php");
+include_once("config/conexao.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -7,7 +7,7 @@ require_once("config/conexao.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SGF - Sistema de Gestão de Frotas</title>
+    <title>SGF - Sistema de Gestão de Frota</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -15,13 +15,13 @@ require_once("config/conexao.php");
     <table>
         <tr>
             <td>
-                <a href="veiculos.php">🔍Vizualizar Veículos</a>
+                <a href="veiculos.php">🔎 Visualizar Veículos</a>
             </td>
             <td>
-                <a href="">📝Cadastro de Veículos</a>
+                <a href="veiculo_cadastro.php">📝 Cadastro de Veículos</a>
             </td>
             <td>
-                <a href="">📅Histórico Geral</a>
+                <a href="historico.php">📅 Histórico Geral</a>
             </td>
         </tr>
     </table>
