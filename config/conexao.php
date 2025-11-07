@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$port = '3307';
+$port = '3306';
 $dbname = 'saep_db_simulado1';
 $usuario = 'root';
 $senha = 'mysql';
