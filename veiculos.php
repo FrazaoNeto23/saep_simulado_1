@@ -2,7 +2,7 @@
 
 <h1>Veículos</h1>
 
-<button onclick="window.location.href='veiculo_formulario.php'">Novo Veículo</button>
+<button onclick="window.location.href='veiculo_formulario.php">Novo Veículo</button>
 
 
 <?php
@@ -28,7 +28,7 @@ try {
                 <?php foreach ($veiculos as $veiculo): ?>
                     <tr>
                         <td><?php echo $veiculo['idveiculo']; ?></td>
-                        <td><?php echo $placa['placa'];?></td>
+                        <td><?php echo $veiculo['placa'];?></td>
                         <td>
                         <?php
                         switch($veiculo['tipo']) {
